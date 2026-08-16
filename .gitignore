@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Runtime output (recognition log + timestamped canvas snapshots)
+*.log
+*.csv
+canvas_*.png
+
+# Ignore stray images anywhere else, but keep the tracked demo
+# screenshots that live in output/
+*.png
+*.jpg
+*.jpeg
+!output/*.png
+!output/*.jpg
+!output/*.jpeg
+!assets/**/*.png
+!assets/**/*.jpg
+
+# Fine-tuned model weights are not part of the repo (see docs/installation.md)
+model/trocr-aircanvas-model/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+.idea/
+.vscode/
+
+.DS_Store

@@ -1,0 +1,8 @@
+opencv-python
+numpy
+mediapipe
+Pillow
+transformers
+torch
+deep-translator
+sentencepiece
